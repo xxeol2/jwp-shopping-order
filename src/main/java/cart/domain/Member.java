@@ -6,10 +6,10 @@ import java.util.Objects;
 @Hidden
 public class Member {
 
-    private Long id;
-    private String email;
-    private String password;
-    private String nickname;
+    private final Long id;
+    private final String email;
+    private final String password;
+    private final String nickname;
 
     public Member(final String email, final String password, final String nickname) {
         this(null, email, password, nickname);
